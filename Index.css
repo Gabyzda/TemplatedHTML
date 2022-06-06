@@ -4,7 +4,9 @@
 }
 
 .cintillo{
-    background-color: rgb(58, 3, 3);
+    height: 200px;
+    width: 100%;
+    background-color: #180e0c;
     color: aliceblue;
 }
 
@@ -16,4 +18,9 @@ button{
     background-color: rgb(94, 118, 253);
     border-radius: 5px;
     color: aliceblue;
+}
+
+.cerezo{
+    height: 200px;
+    width: 100%;
 }
