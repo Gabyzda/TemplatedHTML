@@ -1,4 +1,8 @@
 *{
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+        font-family: Arial, sans-serif;
+}
+
+.cintillo{
+    background-color: rgb(58, 3, 3);
+    color: aliceblue;
 }
