@@ -67,15 +67,12 @@ button{
     height: 500px;
     display: flex;
     justify-content: space-evenly;
-    
     align-items: center;
 }
 
 .cards .card{
     width: 300px;
     height: 450px;
-    
-    
 }
 
 .cards .card .cuadrito{
@@ -95,4 +92,41 @@ button{
     margin-top: 35px;
     font-size: 16px;
     font-weight: 300;
+}
+.bloques{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width:100%;
+    max-width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+    align-items: center;
+    background-color: #37201a;
+    color: #865139;
+}
+
+.bloques .bloq{
+    width: 490px;
+    height: 430px;
+    overflow: hidden;
+    margin: auto;
+    text-align: start;
+}
+
+.bloques .bloq .colum{
+    width: 240px;
+    max-width:240px;
+    max-height:140px;
+    justify-content: center;
+    margin: auto;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bloques .bloq .colum .min{
+    width: 80px;
+    height: 80px;
 }
