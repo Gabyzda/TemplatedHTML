@@ -97,36 +97,37 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     width:100%;
-    max-width: 1200px;
     height: 500px;
     display: flex;
-    flex-wrap: wrap;
     justify-content:center;
     margin: auto;
     align-items: center;
     background-color: #37201a;
     color: #865139;
+    padding: 15px;
 }
 
 .bloques .bloq{
-    width: 490px;
+    max-width: 300px;
+    height: 430px;
+    overflow: hidden;
+    margin: auto;
+    object-fit: cover;
+    vertical-align: text-top; 
+    
+}
+
+.bloques .bloq1{
+    max-width: 600px;
     height: 430px;
     overflow: hidden;
     margin: auto;
     text-align: start;
+    
 }
 
-.bloques .bloq .colum{
-    width: 240px;
-    max-width:240px;
-    max-height:140px;
-    justify-content: center;
-    margin: auto;
-    align-content: space-around;
-    flex-wrap: wrap;
-}
-
-.bloques .bloq .colum .min{
+.bloq .min{
     width: 80px;
     height: 80px;
+    object-fit: cover;
 }
